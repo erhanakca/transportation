@@ -16,6 +16,7 @@
                 <table class="table table-bordered border-info">
                     <thead style="color: orangered">
                     <tr>
+                        <th scope="col">TARİH</th>
                         <th scope="col">İSİM</th>
                         <th scope="col">SOYİSİM</th>
                         <th scope="col">TELEFON</th>
@@ -26,6 +27,7 @@
                     <?php foreach ($döndür as $item): ?>
                         <thead>
                         <tr>
+                            <th><?php echo $item['date']?></th>
                             <th><?php echo $item['name']?></th>
                             <th><?php echo $item['surname']?></th>
                             <th><?php echo $item['phone']?></th>

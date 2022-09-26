@@ -11,7 +11,7 @@
                     <input type="text" name="admin" class="form-control" placeholder="Kullanıcı Adı">
                 </div>
                 <div class="mb-4">
-                    <input type="text" name="password" class="form-control" placeholder="Şifre">
+                    <input type="password" name="password" class="form-control" placeholder="Şifre">
                 </div>
                 <button type="submit" class="btn btn-warning col-md-5 mx-auto text-justify mt-2 ">Giriş Yap</button>
             </form>
